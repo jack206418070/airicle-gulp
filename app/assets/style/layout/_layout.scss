@@ -1,0 +1,16 @@
+.footer__banner{
+  @include bannerBgSet("https://hexschool.github.io/webLayoutTraining1st/week6/footer.jpg",400px);
+  &__sub{
+    font-size: $font-size-base;
+    input[type="button"]{
+      border-radius: 0 0.25rem 0.25rem 0;
+      vertical-align:middle;
+      border: 0;
+    }
+  }
+}
+.footer__copyright{
+  &__text{
+    font-size: 1.375rem;
+  }
+}

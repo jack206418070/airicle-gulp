@@ -1,0 +1,13 @@
+@mixin bannerBgSet($img, $h){
+    background-image: url($img);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: $h;
+}
+
+@mixin pad {
+    @media screen and (min-width: 996px) {
+        @content
+    }
+};

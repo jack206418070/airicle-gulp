@@ -1,0 +1,24 @@
+.inedexBanner{
+    @include bannerBgSet("https://hexschool.github.io/webLayoutTraining1st/week6/done.jpg",480px);
+    padding-left: 180px;
+    input[type="button"]{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.menu{
+    .nav-link{
+        border-bottom: 1px solid transparent;
+        &:hover{
+            border-bottom: 1px solid $danger;
+        }
+    }
+}
+.special{
+    .col-lg-4{
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}

@@ -2,5 +2,10 @@
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+@import "./utils/mixin";
+@import "./utils/helper";
 
-@import './layout/index.scss'
+@import './layout/layout.scss';
+
+
+@import "./pages/index";
