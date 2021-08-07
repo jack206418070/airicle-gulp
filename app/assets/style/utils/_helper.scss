@@ -20,6 +20,20 @@
 .p-relative{
   position: relative;
 }
+.p-absolute{
+  position: absolute;
+}
+.z-index-9{
+  z-index: 9;
+}
+.pa-cover{
+  top: 0;
+  left: 0;
+}
+
+.z-index-10{
+  z-index: 10;
+}
 
 .flex-w-33{
   flex: 0 0 33.3333%;
@@ -31,8 +45,29 @@
     font-size: 32px !important;
   }
 }
+.fs-l{
+  font-size: 28px !important;
+}
+
+.fs-lg-5{
+  @media (min-width: 996px) {
+    font-size: 20px !important;
+  }
+}
+
+.o-70{
+  opacity: 0.7;
+}
 
 
+.img-block{
+  >img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+}
 .input-base{
   border-radius: 0.25rem 0 0 0.25rem;
   border: 0;

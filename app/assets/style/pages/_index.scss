@@ -1,14 +1,23 @@
 .inedexBanner{
     @include bannerBgSet("https://hexschool.github.io/webLayoutTraining1st/week6/done.jpg",480px);
-    padding-left: 180px;
+    @include pad{
+        padding-left: 180px !important;
+    }
     input[type="button"]{
         padding-top: 10px;
         padding-bottom: 10px;
     }
 }
 .menu{
+    overflow-y: scroll;
     .nav-link{
         border-bottom: 1px solid transparent;
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+        @include pad{
+            width: auto;
+        }
         &:hover{
             border-bottom: 1px solid $danger;
         }
@@ -20,5 +29,36 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+    }
+    .col-lg-7{
+        br{
+            display: none;
+            @include pad{
+                    display: inline-block;
+            }
+        }
+    }
+}
+.video{
+    br{
+        display: none;
+        @include pad{
+                display: inline-block;
+        }
+    }
+    .row{
+        @include bannerBgSet("../images/dannie-jing-3GZlhROZIQg-unsplash.jpg",480px)
+    }
+    img{
+        height: 128px;
+        width: 128px;
+    }
+}
+.favor{
+    img{
+        height: 350px;
+        @include pad{
+            height: 345px;
+        }
     }
 }
