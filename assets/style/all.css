@@ -17235,4 +17235,14 @@ fieldset:disabled .btn {
   }
 }
 
+.design img {
+  height: 221px;
+}
+
+@media (min-width: 996px) {
+  .design img {
+    height: 285px;
+  }
+}
+
 /*# sourceMappingURL=all.css.map */
