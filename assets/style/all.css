@@ -17071,10 +17071,24 @@ fieldset:disabled .btn {
   z-index: 10;
 }
 
-.flex-w-33 {
+.flex-w-40 {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 33.3333%;
-          flex: 0 0 33.3333%;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+}
+
+.flex-w-30 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+}
+
+@media (min-width: 996px) {
+  .flex-w-lg-33 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.3333%;
+            flex: 0 0 33.3333%;
+  }
 }
 
 @media (min-width: 996px) {
