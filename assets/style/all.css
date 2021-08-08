@@ -17012,6 +17012,14 @@ fieldset:disabled .btn {
   margin-right: -16px;
 }
 
+.w-50 {
+  width: 60%;
+}
+
+.w-30 {
+  width: 40%;
+}
+
 .p-relative {
   position: relative;
 }
@@ -17087,7 +17095,14 @@ fieldset:disabled .btn {
 }
 
 .footer__banner__sub {
+  width: 100%;
   font-size: 1rem;
+}
+
+@media (min-width: 996px) {
+  .footer__banner__sub {
+    width: 42%;
+  }
 }
 
 .footer__banner__sub input[type="button"] {
