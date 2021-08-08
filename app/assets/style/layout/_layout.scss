@@ -1,6 +1,10 @@
 .footer__banner{
   @include bannerBgSet("https://hexschool.github.io/webLayoutTraining1st/week6/footer.jpg",400px);
   &__sub{
+    width: 100%;
+    @include pad{
+      width: 42%;
+    }
     font-size: $font-size-base;
     input[type="button"]{
       border-radius: 0 0.25rem 0.25rem 0;

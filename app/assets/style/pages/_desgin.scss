@@ -1,0 +1,8 @@
+.design{
+    img{
+        height: 221px;
+        @include pad{
+            height: 285px;
+        }
+    }
+}
