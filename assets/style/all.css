@@ -17322,22 +17322,20 @@ ul {
   overflow-y: scroll;
 }
 
+@media (min-width: 996px) {
+  .cart__content {
+    height: auto;
+  }
+}
+
 .cart__footer {
-  position: fixed;
+  position: absolute;
   width: 100%;
   background: #000;
   right: 0;
-  top: calc(100vh - 94px);
-  z-index: -1;
-  opacity: 0;
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
-}
-
-.cart__footer.show {
-  z-index: 100;
-  opacity: 1;
 }
 
 @media (min-width: 996px) {
