@@ -14,22 +14,18 @@
     width: 120px;
   }
   &__content{
-    height: 70vh;
+    height: calc(100vh - 200px);
     overflow-y: scroll;
+    @include pad{
+      height: auto;
+    }
   }
   &__footer{
-    position: fixed;
+    position: absolute;
     width: 100%;
     background: #000;
     right: 0;
-    top: 89vh;
-    z-index: -1;
-    opacity: 0;
     transition: .5s;
-    &.show{
-      z-index: 100;
-      opacity: 1;
-    }
     @include pad{
       position: static;
     }
