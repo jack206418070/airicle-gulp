@@ -1,0 +1,137 @@
+---
+title: 藝術展售票-票券購買
+layout: ./app/layout.ejs
+engine: ejs
+current: ticket
+---
+<section class="menu border-bottom border-top border-info mb-11 mb-lg-20">
+    <ul class="navbar-nav flex-row justify-content-between justify-content-lg-center py-1 px-4 py-lg-4">
+        <li class="nav-item">
+            <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">音樂</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">戲劇</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-info px-0 px-lg-5 py-1" href="./design.html">設計</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">藝術</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">美食</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">旅遊</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">電影</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">親子</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">期間限定</a>
+        </li>
+    </ul>
+</section>
+
+<section class="ticket mb-10">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-10 mb-lg-0">
+                <div class="ticket__img mb-2 img-block">
+                    <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="ticket-img">
+                </div>
+                <div class="ticket__desc">
+                    <h5 class="mb-1">2020 台味設計展 <i class="fab fa-facebook text-dark ms-lg-3"></i></h5>
+                    <p>一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。</p>
+                </div>
+            </div>
+            <div class="col-lg-3 p-relative border-right-cut mb-10 mb-lg-0">
+                <div class="ticket__count d-flex flex-column mb-lg-11">
+                    <div class="ticket__count__check d-flex align-items-center justify-content-center mb-6">
+                        <a class="fs-4 text-dark" href="#">-</a>
+                        <p>01</p>
+                        <a class="fs-4 text-dark" href="#">+</a>
+                    </div>
+                    <p class="fs-6 w-100 text-center">張</p>
+                </div>
+                <input class="btn btn-primary d-none d-lg-block w-100 text-secondary border border-secondary"
+                    type="button" value="收藏展覽">
+            </div>
+            <div class="col-lg-3 mb-11 mb-lg-0">
+                <div class="ticket__price d-flex flex-column mb-lg-11">
+                    <div class="ticket__price__check mb-6">
+                        <p class="text-center">NT$350</p>
+                    </div>
+                    <p class="fs-6 w-100 text-center mb-2">票種</p>
+                    <div class="ticket__price__type mx-auto">
+                        <a class="text-dark px-lg-4 hover-bb-danger" href="#">學生</a>
+                        <a class="text-dark px-lg-4 hover-bb-danger" href="#">全票</a>
+                        <a class="text-dark px-lg-4 hover-bb-danger" href="#">愛心</a>
+                    </div>
+                </div>
+                <input class="btn btn-danger d-none d-lg-block w-100 text-primary" type="button" value="購買票券">
+            </div>
+            <div class="col-lg-1 d-flex justify-content-between d-lg-none">
+                <input class="btn btn-primary d-block d-lg-none w-49 text-secondary border border-secondary"
+                    type="button" value="收藏展覽">
+                <input class="btn btn-danger d-block d-lg-none  w-49 text-primary" type="button" value="購買票券">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ticketContent mb-6 mb-lg-15">
+    <div class="container">
+        <div class="row flex-column-reverse flex-lg-row">
+            <div class="col-lg-4 img-block order-lg-2">
+                <img src="https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/ricardo-gomez-angel-j5gCOKZdm6I-unsplash.jpg" alt="ticket-img">
+            </div>
+            <div class="col-lg-12 img-block banner order-lg-1 mb-4 mb-lg-8">
+                <img src="https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/max-van-den-oetelaar-IMYe9uYN27E-unsplash.jpg" alt="ticket-banner">
+            </div>
+            <div class="col-lg-8 order-lg-3 mb-5 mb-lg-0">
+                <h5 class="mb-4 mb-lg-2">藝饗宴</h5>
+                <p class="mb-3">​Celebration of Style and Art</p>
+                <p class="text-info indent-8 mb-8 mb-lg-4">
+                    匯集美、日、臺等地的藝術家與時尚設計師的作品。以跨界跨域的潮流文化為軸心，結合街頭塗鴉、時尚文化、名牌符號等，藉由各自特殊的表現語彙，傳達對社會當下流行文化的自我反嘲。然而這些深受大眾喜愛的藝術家，也讓「時尚」的概念不再扁平單一，相反的，他們展現了對社會更具魅力的反思，也提出了對於潮文化的自我觀點。
+                </p>
+                <p class="text-info">從臺灣前輩藝術家林淵、國際知名的超扁平藝術家村上隆、臺灣彩繪雕塑家洪易、以及當代新玩具雕塑代表Kaws
+                    等，都受到許多收藏家的喜愛，同時也是當代藝術史上重要的一員。在這個展區，向藏家借展的作品都是一時之選，也反映出街頭藝術發展的某一種共性。另外，在與時尚跨界的藝術表現上，有永遠嘲諷時尚卻很時尚的藝術家Death
+                    NYC、臺灣新銳服裝設計師吳日云、尋找鎂光燈背後那真實藝術家身分的郭彥甫、年輕雕塑家賴冠仲、橫跨藝術與時尚設計師雙重身分的雙人組陳薇與李崇德、創造出療癒角色俊寶Zunbo
+                    的韓國設計團隊Sakubo，以及日本藝術家喜久田尚美、南館麻美子等。展區透過空間的裝置與時尚語彙，完美詮釋了藝術、設計與潮流文化的多元樣貌。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="favor mb-2 mb-lg-11">
+    <div class="container">
+        <h2 class="fw-bold mb-2 mb-lg-6">猜你也喜歡...</h2>
+        <div class="row justify-content-end">
+            <div class="col-lg-4">
+                <div class="img-block mb-2 mb-lg-1">
+                    <img src="./assets/images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash拷貝2.jpg" alt="img-1">
+                </div>
+                <h5 class="mb-lg-1">No.22 線上設計展</h5>
+                <p class="fs-5">$350</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="img-block mb-2 mb-lg-1">
+                    <img src="./assets/images/mitchell-luo-zNkhvTmBasQ-unsplash.jpg" alt="img-1">
+                </div>
+                <h5 class="mb-lg-1">No.22 線上設計展</h5>
+                <p class="fs-5">$350</p>
+            </div>
+            <div class="col-lg-3">
+                <div class="img-block mb-2 mb-lg-1">
+                    <img src="./assets/images/engin-akyurt-TGv4bSO0zcM-unsplash.jpg" alt="img-1">
+                </div>
+                <h5 class="mb-lg-1">No.22 線上設計展</h5>
+                <p class="fs-5">$350</p>
+            </div>
+        </div>
+    </div>
+</section>

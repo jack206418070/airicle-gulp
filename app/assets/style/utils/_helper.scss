@@ -11,7 +11,32 @@
     text-align: center;
     font-size: $font-size-xs;
     line-height: 14px;
+}
+.border-right-cut{
+  @include pad{
+    &::before{
+      content: '';
+      position: absolute;
+      height: 256px;
+      width: 1px;
+      background: #000;
+      right: 0;
+      top: 0;
+    }
   }
+}
+.hover-bb-danger{
+  border-bottom: 1px solid transparent;
+  &:hover{
+    border-bottom: 1px solid $danger;
+  }
+}
+
+.indent-8{
+  text-indent: 32px;
+}
+
+
 .fixed-pe-4{
   margin-right: -16px;
 }
@@ -26,11 +51,17 @@
   &-40{
     width: 40%;
   }
+  &-49{
+    width: 49%;
+  }
   &-50{
     width: 50%;
   }
   &-60{
     width: 60%;
+  }
+  &-80{
+    width: 80%;
   }
   @include pad{
     &-lg-20{
@@ -41,6 +72,9 @@
     }
     &-lg-40{
       width: 40%;
+    }
+    &-lg-49{
+      width: 49%;
     }
     &-lg-50{
       width: 50%;
@@ -69,8 +103,17 @@
   z-index: 10;
 }
 
-.flex-w-33{
-  flex: 0 0 33.3333%;
+.flex-w-40{
+  flex: 0 0 40%;
+}
+.flex-w-30{
+  flex: 0 0 30%;
+}
+
+.flex-w-lg-33{
+  @include pad{
+    flex: 0 0 33.3333%;
+  }
 }
 
 

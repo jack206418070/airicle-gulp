@@ -5,8 +5,10 @@
 @import "./utils/mixin";
 @import "./utils/helper";
 
+@import "./layout/base";
 @import './layout/layout.scss';
 
 
 @import "./pages/index";
 @import "./pages/desgin";
+@import "./pages/ticket";
