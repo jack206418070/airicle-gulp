@@ -17294,9 +17294,7 @@ ul {
 }
 
 .cart {
-  height: 60vh;
   top: -100vh;
-  overflow-y: scroll;
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
@@ -17319,12 +17317,17 @@ ul {
   width: 120px;
 }
 
+.cart__content {
+  height: 70vh;
+  overflow-y: scroll;
+}
+
 .cart__footer {
   position: fixed;
   width: 100%;
   background: #000;
   right: 0;
-  top: 65vh;
+  top: 89vh;
   z-index: -1;
   opacity: 0;
   -webkit-transition: .5s;
