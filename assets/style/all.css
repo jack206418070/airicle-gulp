@@ -17020,6 +17020,12 @@ fieldset:disabled .btn {
   }
 }
 
+.close-tag {
+  position: absolute;
+  top: .25rem;
+  left: .5rem;
+}
+
 .hover-bb-danger {
   border-bottom: 1px solid transparent;
 }
@@ -17036,6 +17042,24 @@ fieldset:disabled .btn {
   margin-right: -16px;
 }
 
+.orderlg-1 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.orderlg-2 {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.orderlg-3 {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
 .w-20 {
   width: 20%;
 }
@@ -17046,6 +17070,10 @@ fieldset:disabled .btn {
 
 .w-40 {
   width: 40%;
+}
+
+.w-45 {
+  width: 45%;
 }
 
 .w-49 {
@@ -17074,6 +17102,9 @@ fieldset:disabled .btn {
   .w-lg-40 {
     width: 40%;
   }
+  .w-lg-45 {
+    width: 45% !important;
+  }
   .w-lg-49 {
     width: 49%;
   }
@@ -17093,6 +17124,11 @@ fieldset:disabled .btn {
   position: absolute;
 }
 
+.p-fixed {
+  position: fixed;
+  width: 100%;
+}
+
 .z-index-9 {
   z-index: 9;
 }
@@ -17104,6 +17140,10 @@ fieldset:disabled .btn {
 
 .z-index-10 {
   z-index: 10;
+}
+
+.z-index-100 {
+  z-index: 100;
 }
 
 .flex-w-40 {
@@ -17165,8 +17205,142 @@ fieldset:disabled .btn {
   outline: 0;
 }
 
-p {
+.step .circle {
+  top: -3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.step .circle.active {
+  background: #E31277 !important;
+}
+
+.step .circle:nth-child(1) {
+  left: 11%;
+}
+
+.step .circle:nth-child(2) {
+  left: 36%;
+}
+
+.step .circle:nth-child(3) {
+  left: 63%;
+}
+
+.step .circle:nth-child(4) {
+  left: 88%;
+}
+
+.step__line {
+  height: 2px;
+}
+
+.step__title p {
+  font-size: .875rem;
+}
+
+@media (min-width: 996px) {
+  .step__title p {
+    font-size: 1rem;
+  }
+}
+
+.myCard__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+}
+
+@media (min-width: 996px) {
+  .myCard__img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+  }
+}
+
+.myCard__content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+}
+
+@media (min-width: 996px) {
+  .myCard__content {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 77.5%;
+            flex: 0 0 77.5%;
+  }
+}
+
+.myCard__content__body {
+  width: 100%;
+}
+
+@media (min-width: 996px) {
+  .myCard__content__body {
+    width: auto;
+  }
+}
+
+p, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-bottom: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.cart {
+  height: 80vh;
+  top: -100vh;
+  overflow-y: scroll;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  right: 0;
+  z-index: 100;
+}
+
+.cart.show {
+  top: 62px;
+}
+
+@media (min-width: 996px) {
+  .cart.show {
+    top: 80px;
+  }
+}
+
+.cart img {
+  height: 120px;
+  width: 120px;
+}
+
+.cart__footer {
+  position: fixed;
+  width: 100%;
+  background: #000;
+  right: 0;
+  top: 85vh;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+.cart__footer.show {
+  z-index: 100;
+  opacity: 1;
+}
+
+@media (min-width: 996px) {
+  .cart__footer {
+    position: static;
+  }
 }
 
 .footer__banner {
@@ -17322,6 +17496,10 @@ p {
 
 .ticketContent .col-lg-12 .banner {
   width: 400px;
+}
+
+.pay img {
+  height: 84px;
 }
 
 /*# sourceMappingURL=all.css.map */

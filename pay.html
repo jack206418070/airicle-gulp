@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-    藝術展售票-設計展
+    藝術展售票-結帳
   </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
@@ -122,118 +122,94 @@
     </div>
   </nav>
 
-  <section class="menu border-bottom border-top border-info">
-    <ul class="navbar-nav flex-row justify-content-between justify-content-lg-center py-1 px-4 py-lg-4">
-      <li class="nav-item">
-        <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">音樂</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">戲劇</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-info px-0 px-lg-5 py-1" href="./design.html">設計</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">藝術</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">美食</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">旅遊</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">電影</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">親子</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-info px-0 px-lg-5 py-1" href="#">期間限定</a>
-      </li>
-    </ul>
-</section>
-<section class="design mb-6 mb-lg-15">
-        <ul class="p-0 m-0">
-            <li class="bg-secondary text-primary py-11 pt-lg-20 pb-lg-13">
-                <div class="container">
-                    <div class="row flex-column-reverse flex-lg-row">
-                        <div class="col-lg-4">
-                            <p class="d-block d-lg-none mb-2">01 JUN — 31 OCT</p>
-                            <h2 class="fs-1 mb-2 mb-lg-6">2020 台味設計展</h2>
-                            <p class="mb-0">一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。</p>
-                        </div>
-                        <div class="col-lg-5 img-block mb-4 mb-lg-0">
-                            <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="design-img">
-                        </div>
-                        <div class="col-lg-1 fw-bold align-self-end d-none d-lg-block">
-                            <p class="fs-5 mb-0">01<br>JUN<br>|<br>31<br>OCT</p>
-                        </div>
+  
+<section class="pay border border-primary">
+    <div class="container mt-20 py-1">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="step mb-5 mb-lg-7">
+                    <div class="step__line bg-danger p-relative mb-1 mb-lg-2">
+                        <div class="circle border border-danger bg-primary p-absolute active"></div>
+                        <div class="circle border border-danger bg-primary p-absolute"></div>
+                        <div class="circle border border-danger bg-primary p-absolute"></div>
+                        <div class="circle border border-danger bg-primary p-absolute"></div>
+                    </div>
+                    <div class="step__title d-flex justify-content-around">
+                        <p>確認訂單</p>
+                        <p>填寫訂購資訊</p>
+                        <p>填寫付款資訊</p>
+                        <p>完成訂購</p>
                     </div>
                 </div>
-            </li>
-            <li class="text-secondary py-11 pt-lg-20 pb-lg-13">
-                <div class="container">
-                    <div class="row flex-column-reverse flex-lg-row justify-content-end">
-                        <div class="col-lg-4">
-                            <p class="d-block d-lg-none mb-2">01 JUN — 31 OCT</p>
-                            <h2 class="fs-1 mb-2 mb-lg-6">No.22 線上設計展</h2>
-                            <p class="mb-0">這是一個專屬於設計系畢業生的展覽，沒有華麗的名號、沒有浮誇的獎賞。讓我們用作品與理念，去碰撞真實世界裡的各種問題，創造更多美好的人事物。讓這個地球、這個世界變成每一個人心目中的理想鄉。</p>
+                <ul>
+                    <li class="myCard d-flex align-items-center justify-content-between mb-5">
+                        <div class="myCard__img img-block">
+                            <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="pay-1">
                         </div>
-                        <div class="col-lg-5 img-block mb-4 mb-lg-0">
-                            <img src="./assets/images/michel-catalisano--a0D9LpcKV8-unsplash.jpg" alt="design-img">
+                        <div class="myCard__content d-flex align-items-center justify-content-between ps-4 ps-lg-0">
+                            <div class="myCard__content__body">
+                                <h3 class="fs-6 mb-lg-1 lh-base d-flex align-items-center justify-content-between">2020 台味設計展
+                                    <a class="text-dark d-block d-lg-none" href="#"><i class="fas fa-times fs-5"></i></a>
+                                </h3>
+                                <p class="mb-lg-1">01 JUN — 31 OCT</p>
+                                <p class="text-info d-flex align-items-center">全票 <span class="d-block d-lg-none fs-5 fw-bold text-dark px-1">1</span> <span class="d-block d-lg-none fs-5 fw-bold text-dark ms-auto" >NT$350</span></p>
+                            </div>
+                            <p class="fs-5 fw-bold d-none d-lg-block">NT$350</p>
+                            <div class="count d-none d-lg-flex align-items-center">
+                                <a href="#" class="text-dark fs-4 py-3 px-4">-</a>
+                                <p class="fs-5 py-3 px-4">01</p>
+                                <a href="#" class="text-dark fs-4 py-3 px-4">+</a>
+                            </div>
+                        <a class="text-dark d-none d-lg-block" href="#"><i class="fas fa-times fs-4"></i></a>
                         </div>
-                        <div class="col-lg-1 fw-bold align-self-end d-none d-lg-block">
-                            <p class="fs-5 mb-0">01<br>JUN<br>|<br>31<br>OCT</p>
+                    </li>
+                    <li class="myCard d-flex align-items-center justify-content-between mb-5">
+                        <div class="myCard__img img-block">
+                            <img src="./assets/images/michel-catalisano--a0D9LpcKV8-unsplash.jpg" alt="pay-1">
                         </div>
-                    </div>
-                </div>
-            </li>
-            <li class="bg-secondary text-primary py-11 pt-lg-20 pb-lg-13">
-                <div class="container">
-                    <div class="row flex-column-reverse flex-lg-row">
-                        <div class="col-lg-4">
-                            <p class="d-block d-lg-none mb-2">01 JUN — 31 OCT</p>
-                            <h2 class="fs-1 mb-2 mb-lg-6">高雄設計節</h2>
-                            <p class="mb-0">設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？</p>
+                        <div class="myCard__content d-flex align-items-center justify-content-between ps-4 ps-lg-0">
+                            <div class="myCard__content__body">
+                                <h3 class="fs-6 mb-lg-1 lh-base d-flex align-items-center justify-content-between">2020 台味設計展
+                                    <a class="text-dark d-block d-lg-none" href="#"><i class="fas fa-times fs-5"></i></a>
+                                </h3>
+                                <p class="mb-lg-1">01 JUN — 31 OCT</p>
+                                <p class="text-info d-flex align-items-center">全票 <span class="d-block d-lg-none fs-5 fw-bold text-dark px-1">1</span> <span class="d-block d-lg-none fs-5 fw-bold text-dark ms-auto" >NT$350</span></p>
+                            </div>
+                            <p class="fs-5 fw-bold d-none d-lg-block">NT$350</p>
+                            <div class="count d-none d-lg-flex align-items-center">
+                                <a href="#" class="text-dark fs-4 py-3 px-4">-</a>
+                                <p class="fs-5 py-3 px-4">01</p>
+                                <a href="#" class="text-dark fs-4 py-3 px-4">+</a>
+                            </div>
+                        <a class="text-dark d-none d-lg-block" href="#"><i class="fas fa-times fs-4"></i></a>
                         </div>
-                        <div class="col-lg-5 img-block mb-4 mb-lg-0">
-                            <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="design-img">
+                    </li>
+                    <li class="myCard d-flex align-items-center justify-content-between mb-5">
+                        <div class="myCard__img img-block">
+                            <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="pay-1">
                         </div>
-                        <div class="col-lg-1 fw-bold align-self-end d-none d-lg-block">
-                            <p class="fs-5 mb-0">01<br>JUN<br>|<br>31<br>OCT</p>
+                        <div class="myCard__content d-flex align-items-center justify-content-between ps-4 ps-lg-0">
+                            <div class="myCard__content__body">
+                                <h3 class="fs-6 mb-lg-1 lh-base d-flex align-items-center justify-content-between">2020 台味設計展
+                                    <a class="text-dark d-block d-lg-none" href="#"><i class="fas fa-times fs-5"></i></a>
+                                </h3>
+                                <p class="mb-lg-1">01 JUN — 31 OCT</p>
+                                <p class="text-info d-flex align-items-center">全票 <span class="d-block d-lg-none fs-5 fw-bold text-dark px-1">1</span> <span class="d-block d-lg-none fs-5 fw-bold text-dark ms-auto" >NT$350</span></p>
+                            </div>
+                            <p class="fs-5 fw-bold d-none d-lg-block">NT$350</p>
+                            <div class="count d-none d-lg-flex align-items-center">
+                                <a href="#" class="text-dark fs-4 py-3 px-4">-</a>
+                                <p class="fs-5 py-3 px-4">01</p>
+                                <a href="#" class="text-dark fs-4 py-3 px-4">+</a>
+                            </div>
+                        <a class="text-dark d-none d-lg-block" href="#"><i class="fas fa-times fs-4"></i></a>
                         </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
-</section>
-<section class="favor mb-2 mb-lg-11">
-    <div class="container">
-      <h2 class="fw-bold mb-2 mb-lg-6">猜你也喜歡...</h2>
-      <div class="row justify-content-end">
-        <div class="col-lg-4">
-          <div class="img-block mb-2 mb-lg-1">
-            <img src="./assets/images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash拷貝2.jpg" alt="img-1">
-          </div>
-          <h5 class="mb-lg-1">No.22 線上設計展</h5>
-          <p class="fs-5">$350</p>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-lg-4"></div>
         </div>
-        <div class="col-lg-4">
-          <div class="img-block mb-2 mb-lg-1">
-            <img src="./assets/images/mitchell-luo-zNkhvTmBasQ-unsplash.jpg" alt="img-1">
-          </div>
-          <h5 class="mb-lg-1">No.22 線上設計展</h5>
-          <p class="fs-5">$350</p>
-        </div>
-        <div class="col-lg-3">
-          <div class="img-block mb-2 mb-lg-1">
-            <img src="./assets/images/engin-akyurt-TGv4bSO0zcM-unsplash.jpg" alt="img-1">
-          </div>
-          <h5 class="mb-lg-1">No.22 線上設計展</h5>
-          <p class="fs-5">$350</p>
-        </div>
-      </div>
     </div>
 </section>
 
