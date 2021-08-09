@@ -5,6 +5,9 @@
 @import "./utils/mixin";
 @import "./utils/helper";
 
+@import "./componet/step";
+@import "./componet/myCard";
+
 @import "./layout/base";
 @import './layout/layout.scss';
 
@@ -12,3 +15,4 @@
 @import "./pages/index";
 @import "./pages/desgin";
 @import "./pages/ticket";
+@import "./pages/pay";

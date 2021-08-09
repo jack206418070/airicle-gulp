@@ -1,3 +1,38 @@
+.cart{
+  height:80vh;
+  top: -100vh;
+  overflow-y: scroll;
+  transition: .5s;
+  right: 0;
+  z-index: 100;
+  &.show{
+    top: 62px;
+    @include pad{
+      top: 80px;
+    }
+  }
+  img{
+    height: 120px;
+    width: 120px;
+  }
+  &__footer{
+    position: fixed;
+    width: 100%;
+    background: #000;
+    right: 0;
+    top: 85vh;
+    z-index: -1;
+    opacity: 0;
+    transition: .5s;
+    &.show{
+      z-index: 100;
+      opacity: 1;
+    }
+    @include pad{
+      position: static;
+    }
+  }
+}
 .footer__banner{
   @include bannerBgSet("https://hexschool.github.io/webLayoutTraining1st/week6/footer.jpg",400px);
   &__sub{

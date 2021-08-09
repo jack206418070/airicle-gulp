@@ -1,0 +1,20 @@
+.myCard{
+    &__img{
+        flex: 0 0 40%;
+        @include pad{
+            flex: 0 0 20%;
+        }
+    }
+    &__content{
+        flex: 0 0 60%;
+        @include pad{
+            flex: 0 0 77.5%;
+        }
+        &__body{
+            width: 100%;
+            @include pad{
+                width: auto;
+            }
+        }
+    }
+}
