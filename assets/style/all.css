@@ -17294,7 +17294,7 @@ ul {
 }
 
 .cart {
-  height: 80vh;
+  height: 60vh;
   top: -100vh;
   overflow-y: scroll;
   -webkit-transition: .5s;
@@ -17324,7 +17324,7 @@ ul {
   width: 100%;
   background: #000;
   right: 0;
-  top: 85vh;
+  top: 65vh;
   z-index: -1;
   opacity: 0;
   -webkit-transition: .5s;
