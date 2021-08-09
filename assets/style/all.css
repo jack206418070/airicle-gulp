@@ -17324,7 +17324,7 @@ ul {
 
 @media (min-width: 996px) {
   .cart__content {
-    height: auto;
+    height: calc(100vh - 290px);
   }
 }
 
