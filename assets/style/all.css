@@ -17008,6 +17008,30 @@ fieldset:disabled .btn {
   line-height: 14px;
 }
 
+@media (min-width: 996px) {
+  .border-right-cut::before {
+    content: '';
+    position: absolute;
+    height: 256px;
+    width: 1px;
+    background: #000;
+    right: 0;
+    top: 0;
+  }
+}
+
+.hover-bb-danger {
+  border-bottom: 1px solid transparent;
+}
+
+.hover-bb-danger:hover {
+  border-bottom: 1px solid #E31277;
+}
+
+.indent-8 {
+  text-indent: 32px;
+}
+
 .fixed-pe-4 {
   margin-right: -16px;
 }
@@ -17024,12 +17048,20 @@ fieldset:disabled .btn {
   width: 40%;
 }
 
+.w-49 {
+  width: 49%;
+}
+
 .w-50 {
   width: 50%;
 }
 
 .w-60 {
   width: 60%;
+}
+
+.w-80 {
+  width: 80%;
 }
 
 @media (min-width: 996px) {
@@ -17041,6 +17073,9 @@ fieldset:disabled .btn {
   }
   .w-lg-40 {
     width: 40%;
+  }
+  .w-lg-49 {
+    width: 49%;
   }
   .w-lg-50 {
     width: 50%;
@@ -17128,6 +17163,10 @@ fieldset:disabled .btn {
 
 .input-base:focus {
   outline: 0;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 .footer__banner {
@@ -17257,6 +17296,32 @@ fieldset:disabled .btn {
   .design img {
     height: 285px;
   }
+}
+
+.ticket__img img {
+  height: 256px;
+}
+
+@media (min-width: 996px) {
+  .ticket__count, .ticket__price {
+    padding-top: 80px;
+    height: 256px;
+  }
+}
+
+.ticket__count__check p, .ticket__price__check p {
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.3;
+  margin: 0 30px;
+}
+
+.ticketContent img {
+  height: 560px;
+}
+
+.ticketContent .col-lg-12 .banner {
+  width: 400px;
 }
 
 /*# sourceMappingURL=all.css.map */
