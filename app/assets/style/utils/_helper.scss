@@ -60,6 +60,9 @@
 
 
 .w{
+  &-10{
+    width: 10%;
+  }
   &-20{
     width: 20%;
   }
@@ -139,6 +142,13 @@
 }
 .flex-w-30{
   flex: 0 0 30%;
+}
+.flex-w-25{
+  flex: 0 0 25% !important;
+}
+
+.flex-g-1{
+  flex-grow: 1;
 }
 
 .flex-w-lg-33{

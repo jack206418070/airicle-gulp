@@ -1,4 +1,6 @@
 const cartBtn = document.querySelector('.js-cart');
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`)
 cartBtn.addEventListener('click',cartHandler);
 
 function cartHandler(e){

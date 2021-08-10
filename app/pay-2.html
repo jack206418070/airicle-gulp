@@ -1,18 +1,17 @@
 ---
-title: 藝術展售票-結帳
+title: 藝術展售票-結帳二
 layout: ./app/layout.ejs
 engine: ejs
-current: index
+current: ticket
 ---
-
-<section class="pay pt-16 pt-lg-20">
-    <div class="container py-1">
+<section class="pay pt-16 pt-lg-20 mb-10">
+    <div class="container pt-5">
         <div class="row">
             <div class="col-lg-8">
                 <div class="step mb-5 mb-lg-7">
                     <div class="step__line bg-danger p-relative mb-1 mb-lg-2">
                         <div class="circle border border-danger bg-primary p-absolute active"></div>
-                        <div class="circle border border-danger bg-primary p-absolute"></div>
+                        <div class="circle border border-danger bg-primary p-absolute active"></div>
                         <div class="circle border border-danger bg-primary p-absolute"></div>
                         <div class="circle border border-danger bg-primary p-absolute"></div>
                     </div>
@@ -23,26 +22,26 @@ current: index
                         <p>完成訂購</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row flex-column-reverse flex-lg-row">
+            <div class="col-lg-8 ticketList mb-12">
                 <ul>
                     <li class="myCard d-flex align-items-center justify-content-between mb-5">
                         <div class="myCard__img img-block">
                             <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="pay-1">
                         </div>
-                        <div class="myCard__content d-flex align-items-center justify-content-between ps-4 ps-lg-0">
+                        <div class="myCard__content d-flex align-items-center ps-4 ps-lg-0 justify-content-between">
                             <div class="myCard__content__body">
                                 <h3 class="fs-6 mb-lg-1 lh-base d-flex align-items-center justify-content-between">2020 台味設計展
-                                    <a class="text-dark d-block d-lg-none" href="#"><i class="fas fa-times fs-5"></i></a>
                                 </h3>
                                 <p class="mb-lg-1">01 JUN — 31 OCT</p>
                                 <p class="text-info d-flex align-items-center">全票 <span class="d-block d-lg-none fs-5 fw-bold text-dark px-1">1</span> <span class="d-block d-lg-none fs-5 fw-bold text-dark ms-auto" >NT$350</span></p>
                             </div>
-                            <p class="fs-5 fw-bold d-none d-lg-block">NT$350</p>
-                            <div class="count d-none d-lg-flex align-items-center">
-                                <a href="#" class="text-dark fs-4 py-3 px-4">-</a>
-                                <p class="fs-5 py-3 px-4">01</p>
-                                <a href="#" class="text-dark fs-4 py-3 px-4">+</a>
-                            </div>
-                        <a class="text-dark d-none d-lg-block" href="#"><i class="fas fa-times fs-4"></i></a>
+                            <p class="fs-5 fw-bold d-none d-lg-block flex-g-1 text-center">NT$350</p>
+                            <p class="fs-5 fw-bold d-none d-lg-block flex-g-1">1</p>
                         </div>
                     </li>
                     <li class="myCard d-flex align-items-center justify-content-between mb-5">
@@ -52,45 +51,69 @@ current: index
                         <div class="myCard__content d-flex align-items-center justify-content-between ps-4 ps-lg-0">
                             <div class="myCard__content__body">
                                 <h3 class="fs-6 mb-lg-1 lh-base d-flex align-items-center justify-content-between">2020 台味設計展
-                                    <a class="text-dark d-block d-lg-none" href="#"><i class="fas fa-times fs-5"></i></a>
                                 </h3>
                                 <p class="mb-lg-1">01 JUN — 31 OCT</p>
                                 <p class="text-info d-flex align-items-center">全票 <span class="d-block d-lg-none fs-5 fw-bold text-dark px-1">1</span> <span class="d-block d-lg-none fs-5 fw-bold text-dark ms-auto" >NT$350</span></p>
                             </div>
-                            <p class="fs-5 fw-bold d-none d-lg-block">NT$350</p>
-                            <div class="count d-none d-lg-flex align-items-center">
-                                <a href="#" class="text-dark fs-4 py-3 px-4">-</a>
-                                <p class="fs-5 py-3 px-4">01</p>
-                                <a href="#" class="text-dark fs-4 py-3 px-4">+</a>
-                            </div>
-                        <a class="text-dark d-none d-lg-block" href="#"><i class="fas fa-times fs-4"></i></a>
+                            <p class="fs-5 fw-bold d-none d-lg-block flex-g-1 text-center">NT$350</p>
+                            <p class="fs-5 fw-bold d-none d-lg-block flex-g-1">1</p>
+                            
                         </div>
                     </li>
-                    <li class="myCard d-flex align-items-center justify-content-between mb-5">
+                    <li class="myCard d-flex align-items-center justify-content-between">
                         <div class="myCard__img img-block">
                             <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="pay-1">
                         </div>
                         <div class="myCard__content d-flex align-items-center justify-content-between ps-4 ps-lg-0">
                             <div class="myCard__content__body">
                                 <h3 class="fs-6 mb-lg-1 lh-base d-flex align-items-center justify-content-between">2020 台味設計展
-                                    <a class="text-dark d-block d-lg-none" href="#"><i class="fas fa-times fs-5"></i></a>
                                 </h3>
                                 <p class="mb-lg-1">01 JUN — 31 OCT</p>
                                 <p class="text-info d-flex align-items-center">全票 <span class="d-block d-lg-none fs-5 fw-bold text-dark px-1">1</span> <span class="d-block d-lg-none fs-5 fw-bold text-dark ms-auto" >NT$350</span></p>
                             </div>
-                            <p class="fs-5 fw-bold d-none d-lg-block">NT$350</p>
-                            <div class="count d-none d-lg-flex align-items-center">
-                                <a href="#" class="text-dark fs-4 py-3 px-4">-</a>
-                                <p class="fs-5 py-3 px-4">01</p>
-                                <a href="#" class="text-dark fs-4 py-3 px-4">+</a>
-                            </div>
-                        <a class="text-dark d-none d-lg-block" href="#"><i class="fas fa-times fs-4"></i></a>
+                            <p class="fs-5 fw-bold d-none d-lg-block flex-g-1 text-center">NT$350</p>
+                            <p class="fs-5 fw-bold d-none d-lg-block flex-g-1">1</p>
                         </div>
                     </li>
                 </ul>
             </div>
+            <div class="col-lg-4 mb-6 mb-lg-3 d-flex flex-column">
+                <form class="mb-13 mb-lg-0">
+                    <h3 class="fs-5 mb-4 mb-lg-5">訂購人資訊</h3>
+                    <div class="mb-5">
+                        <label for="email" class="form-label mb-1">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+                      </div>
+                      <div class="mb-5">
+                        <label for="name" class="form-label mb-1">姓名</label>
+                        <input type="text" class="form-control" id="name" placeholder="請輸入姓名">
+                      </div>
+                      <div class="mb-5">
+                        <label for="tel" class="form-label mb-1">聯絡電話</label>
+                        <input type="tel" class="form-control" id="tel" placeholder="請輸入電話">
+                      </div>
+                      <div>
+                        <label for="coupon" class="form-label mb-1">優惠碼</label>
+                        <input type="text" class="form-control mb-1" id="coupon" placeholder="TG87526">
+                        <p class="couponCheck text-secondary text-end">優惠碼已生效</p>
+                      </div>
+                </form>
+                <div class="total__list mt-auto">
+                    <p class="d-flex justify-content-between fs-6 mb-1">小計 <span>NT$1050</span></p>
+                    <p class="d-flex justify-content-between fs-6 mb-1">折扣 <span>-NT$50</span></p>
+                    <p class="d-flex justify-content-between fs-5 mb-2">總金額 <span>NT$1000</span></p>
+                </div>
             </div>
-            <div class="col-lg-4"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-2 col-6">
+                <a class="btn btn-primary border border-secondary text-secondary w-100" href="./pay-1.html">返回</a>
+            </div>
+            <div class="col-lg-4 col-6">
+                <a class="btn btn-danger text-primary w-100" href="./pay-3.html">下一步</a>
+            </div>
         </div>
     </div>
 </section>
