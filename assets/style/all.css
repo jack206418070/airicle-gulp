@@ -17310,13 +17310,14 @@ ul {
 }
 
 .cart {
-  top: -120vh;
+  top: -200vh;
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
   right: 0;
   z-index: 100;
   height: calc(100vh - 62px);
+  height: calc(var(--vh,1vh) * 100 - 62px);
 }
 
 @media (min-width: 996px) {

@@ -1,8 +1,6 @@
 "use strict";
 
 var cartBtn = document.querySelector('.js-cart');
-var vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', "".concat(vh, "px"));
 cartBtn.addEventListener('click', cartHandler);
 
 function cartHandler(e) {
@@ -18,4 +16,14 @@ function cartHandler(e) {
     e.target.dataset.cart = 'open';
   }
 }
+
+function safariHacks() {
+  var windowsVH = window.innerHeight / 100;
+  document.querySelector('.cart').style.setProperty('--vh', windowsVH + 'px');
+  window.addEventListener('resize', function () {
+    document.querySelector('.cart').style.setProperty('--vh', windowsVH + 'px');
+  });
+}
+
+safariHacks();
 //# sourceMappingURL=all.js.map
