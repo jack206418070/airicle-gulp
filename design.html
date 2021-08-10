@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
@@ -11,11 +11,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/fontawesome-free-5.15.3-web/css/all.css">
+<link rel="stylesheet" href="./assets/fontawesome-free-5.15.3-web/css/all.css">
 </head>
 
 <body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-primary border-bottom border-info p-fixed z-index-100 py-5 py-lg-7 lh-1">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary border-bottom border-info p-fixed z-index-100 py-5 py-lg-7 lh-1">
     <div class="cart bg-dark w-100 w-lg-45 p-absolute px-4 py-5 px-lg-8 pt-lg-8 pb-lg-6">
       <div class="cart__title mb-3">
         <p class="fs-1 fw-bold text-primary">Cart List</p>
@@ -121,7 +122,8 @@
       </ul>
     </div>
   </nav>
-
+  </header>
+  
   <section class="menu border-bottom border-top border-info pt-16 pt-lg-20">
     <ul class="navbar-nav flex-row justify-content-between justify-content-lg-center py-1 px-4 py-lg-4">
       <li class="nav-item">
@@ -237,7 +239,8 @@
     </div>
 </section>
 
-    <footer class="footer">
+    <footer>
+      
       <div class="footer__banner d-flex flex-column justify-content-end">
         <div class="container py-9">
           <p class="fs-4 fs-lg-2 fw-bold text-primary mb-6 mb-lg-3">想收到展覽的最新消息嗎？<br> 快訂閱我們！</p>
@@ -247,21 +250,22 @@
           </div>
         </div>
       </div>
+      
       <div class="footer__copyright py-4 py-lg-7">
-        <div class="container d-flex justify-content-between align-items-center">
-          <div class="footer__copyright__text fs-lg-4">
-            <p class="mb-0">EXHIBINECTION <span class="d-block d-lg-inline-block fs-6 ms-lg-4">© 2020. All Rights Reserved.</span></p>
-          </div>
-          <ul class="navbar-nav flex-row align-items-center fixed-pe-4 mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link text-info d-none d-lg-block py-0 px-4" href="#">Sign in</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-info d-none d-lg-block py-0 px-4" href="#">Sign up</a>
-            </li>
-          </ul>
-        </div>
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="footer__copyright__text fs-lg-4">
+        <p class="mb-0">EXHIBINECTION <span class="d-block d-lg-inline-block fs-6 ms-lg-4">© 2020. All Rights Reserved.</span></p>
       </div>
+      <ul class="navbar-nav flex-row align-items-center fixed-pe-4 mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-info d-none d-lg-block py-0 px-4" href="#">Sign in</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info d-none d-lg-block py-0 px-4" href="#">Sign up</a>
+        </li>
+      </ul>
+    </div>
+  </div>
     </footer>
 
     <script src="./assets/js/vendors.js"></script>
