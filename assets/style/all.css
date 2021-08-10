@@ -17343,6 +17343,7 @@ ul {
 
 .cart__content {
   height: calc(100vh - 194px);
+  height: calc(var(--vh,1vh) * 100 - 194px);
   overflow-y: scroll;
 }
 
