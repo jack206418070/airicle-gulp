@@ -1,6 +1,8 @@
 "use strict";
 
 var cartBtn = document.querySelector('.js-cart');
+var vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', "".concat(vh, "px"));
 cartBtn.addEventListener('click', cartHandler);
 
 function cartHandler(e) {

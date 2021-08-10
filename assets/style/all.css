@@ -17294,12 +17294,19 @@ ul {
 }
 
 .cart {
-  top: -100vh;
+  top: -120vh;
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
   right: 0;
   z-index: 100;
+  height: calc(100vh - 220px);
+}
+
+@media (min-width: 996px) {
+  .cart {
+    height: 100vh;
+  }
 }
 
 .cart.show {
@@ -17318,13 +17325,13 @@ ul {
 }
 
 .cart__content {
-  height: calc(100vh - 200px);
+  height: 50vh;
   overflow-y: scroll;
 }
 
 @media (min-width: 996px) {
   .cart__content {
-    height: calc(100vh - 290px);
+    height: 80vh;
   }
 }
 
@@ -17333,6 +17340,7 @@ ul {
   width: 100%;
   background: #000;
   right: 0;
+  bottom: 0;
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
@@ -17340,7 +17348,7 @@ ul {
 
 @media (min-width: 996px) {
   .cart__footer {
-    position: static;
+    bottom: 10vh;
   }
 }
 
