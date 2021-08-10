@@ -17300,7 +17300,7 @@ ul {
   transition: .5s;
   right: 0;
   z-index: 100;
-  height: calc(100vh - 160px);
+  height: calc(100vh - 80px);
 }
 
 @media (min-width: 996px) {
@@ -17340,7 +17340,7 @@ ul {
   width: 100%;
   background: #000;
   right: 0;
-  bottom: 0;
+  bottom: 80px;
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
